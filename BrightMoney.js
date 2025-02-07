@@ -57,4 +57,4 @@ document.getElementById("get-started-btn").addEventListener("click", function() 
       event: "button_click",
       button_id: "get-started-btn"
     });
-  });
+});

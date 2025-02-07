@@ -32,25 +32,29 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN2HFZG5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
             <div class="nav-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M12 2a2 2 0 00-2 2v2H8a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V8a2 2 0 00-2-2h-2V4a2 2 0 00-2-2zm0 4a1 1 0 011 1v1h-2V7a1 1 0 011-1zm-4 4h8v10H8V10zm4 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z"/>
-                  </svg>
-                  
+                    <path
+                        d="M12 2a2 2 0 00-2 2v2H8a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V8a2 2 0 00-2-2h-2V4a2 2 0 00-2-2zm0 4a1 1 0 011 1v1h-2V7a1 1 0 011-1zm-4 4h8v10H8V10zm4 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z" />
+                </svg>
                 <span class="nav-title">NextGen AI Banking</span>
             </div>
             <button class="mobile-menu-button" onclick="toggleMenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-                  </svg>
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
             </button>
             <div class="nav-links" id="nav-links">
                 <a href="#features">Features</a>
                 <a href="#testimonials">Testimonials</a>
-                <button class="btn">Get Started</button>
+                <button class="btn" id="get-started-btn">Get Started</button>
             </div>
         </div>
     </nav>
@@ -58,42 +62,45 @@
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-content">
-            <h1>Banking Powered by <span class="highlight">Artificial Intelligence</span></h1>
-            <p>Experience the future of banking with AI-driven insights, seamless transactions, and personalized
-                financial guidance.</p>
-            <button class="btn">Start Banking Smarter</button>
+            <h1 class="animated-text">Banking Powered by <span class="highlight">Artificial Intelligence</span></h1>
+            <p class="animated-text">Experience the future of banking with AI-driven insights, seamless transactions,
+                and personalized financial guidance.</p>
+            <button class="btn animated-text">Start Banking Smarter</button>
         </div>
     </header>
 
     <!-- Features Section -->
     <section id="features" class="features">
-        <h2>Revolutionary Banking Features</h2>
+        <h2 class="animated-text">Revolutionary Banking Features</h2>
         <div class="features-grid">
-            <div class="feature-card">
+            <div class="feature-card animated-card">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M12 2a2 2 0 00-2 2v2H8a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V8a2 2 0 00-2-2h-2V4a2 2 0 00-2-2zm0 4a1 1 0 011 1v1h-2V7a1 1 0 011-1zm-4 4h8v10H8V10zm4 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z"/>
-                  </svg>
+                    <path
+                        d="M12 2a2 2 0 00-2 2v2H8a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V8a2 2 0 00-2-2h-2V4a2 2 0 00-2-2zm0 4a1 1 0 011 1v1h-2V7a1 1 0 011-1zm-4 4h8v10H8V10zm4 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z" />
+                </svg>
                 <h3>AI-Powered Banking</h3>
                 <p>Smart financial decisions powered by advanced AI algorithms.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card animated-card">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.43 4.1-3.28 7.78-7 8.94V12H5V6.3l7-3.11v8.8z"/>
-                  </svg>
+                    <path
+                        d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.43 4.1-3.28 7.78-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                </svg>
                 <h3>Secure Transactions</h3>
                 <p>Bank-grade security with real-time fraud detection.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card animated-card">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M21 18v1a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v1h-9a2 2 0 00-2 2v8a2 2 0 002 2h9zm0-2h-9V8h9v8zm-9-6h9V6h-9v4z"/>
-                  </svg>
+                    <path
+                        d="M21 18v1a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v1h-9a2 2 0 00-2 2v8a2 2 0 002 2h9zm0-2h-9V8h9v8zm-9-6h9V6h-9v4z" />
+                </svg>
                 <h3>Smart Wallet</h3>
                 <p>Manage all your assets in one secure digital wallet.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card animated-card">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path d="M3 13v8h18v-8H3zm2 2h14v4H5v-4zm2-8v2h10V7H7zm0 4v2h10v-2H7zm0 4v2h7v-2H7z"/>
-                  </svg>
+                    <path d="M3 13v8h18v-8H3zm2 2h14v4H5v-4zm2-8v2h10V7H7zm0 4v2h10v-2H7zm0 4v2h7v-2H7z" />
+                </svg>
                 <h3>Advanced Analytics</h3>
                 <p>Real-time insights into your financial health.</p>
             </div>
@@ -102,12 +109,12 @@
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
-        <h2>What Our Clients Say</h2>
+        <h2 class="animated-text">What Our Clients Say</h2>
         <div class="testimonial-slider">
             <button class="slider-button prev" onclick="prevSlide()">
                 ‹
             </button>
-            <div class="testimonial-card">
+            <div class="testimonial-card animated-card">
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Sarah Johnson"
                     class="testimonial-image">
                 <p>"NextGen AI Banking transformed how I manage my business finances."</p>
@@ -125,16 +132,17 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
-            <div class="footer-section">
+            <div class="footer-section animated-card">
                 <div class="footer-logo">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                        <path d="M12 2a2 2 0 00-2 2v2H8a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V8a2 2 0 00-2-2h-2V4a2 2 0 00-2-2zm0 4a1 1 0 011 1v1h-2V7a1 1 0 011-1zm-4 4h8v10H8V10zm4 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z"/>
-                      </svg>
+                        <path
+                            d="M12 2a2 2 0 00-2 2v2H8a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V8a2 2 0 00-2-2h-2V4a2 2 0 00-2-2zm0 4a1 1 0 011 1v1h-2V7a1 1 0 011-1zm-4 4h8v10H8V10zm4 4a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z" />
+                    </svg>
                     <span>NextGen AI Banking</span>
                 </div>
                 <p>Revolutionizing banking with artificial intelligence.</p>
             </div>
-            <div class="footer-section">
+            <div class="footer-section animated-card">
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="#features">Features</a></li>
@@ -142,7 +150,7 @@
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section animated-card">
                 <h3>Contact</h3>
                 <p>Email: contact@nextgenbanking.com</p>
                 <p>Phone: (555) 123-4567</p>
@@ -155,9 +163,5 @@
 
     <script src="BrightMoney.js"></script>
 </body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN2HFZG5" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 </html>
